@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Para criar o banco (Temrminal):
+$ rails db:create
 
-Things you may want to cover:
 
-* Ruby version
+No projeto raiz (Terminal)
+$ foreman start -f Procfile.dev
+(Executa os serviços pela primeira vez)
 
-* System dependencies
+Para criar o CRUD: cria o controller, routes, model e views (Terminal)
+$ rails generate scaffold Publication title:string content:text
 
-* Configuration
+PAra migrar alterações na estrutura do db (Terminal)
+$ rails db:migrate
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+!
