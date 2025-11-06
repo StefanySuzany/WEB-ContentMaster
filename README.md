@@ -1,6 +1,6 @@
 # README
 
-Para criar o banco (Temrminal):
+Para criar o banco (Terminal):
 $ rails db:create
 
 
